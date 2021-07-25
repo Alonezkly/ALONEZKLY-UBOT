@@ -1,7 +1,7 @@
 # We're using Ubuntu 20.10
-FROM vckyouuu/Geezprojects:buster
+FROM vckyouuu/geezprojects:buster
 
-RUN git clone -b ALONEZKLY-UBOT https://github.com/Alonezkly/ALONEZKLY-UBOT /root/userbot
+RUN git clone -b Geez-UserBot https://github.com/Alonezkly/ALONEZKLY-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
