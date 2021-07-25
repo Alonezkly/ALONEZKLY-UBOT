@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡Geez-Project⚡ Versi:** \n "
-            f"heads/Geez-Userbot-0-x634i7u1"
+            "**⚜-**⚡ AZ-UserBot⚡ Versi:** \n "
+            f"heads/Alonezkly-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"╟⟩⟩ 👾 • `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ ║\n"
         f"╟⟩⟩ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   ║\n"
         f"╚══════════╬════╬══════════╝ \n"
-        f"🔰 : [𝗥𝗘𝗣𝗢-𝙂𝙚𝙚𝙯](https://github.com/Alonezkly//ALONEZKLY-UBOT)\n👥 : [𝗔𝗭 𝗖𝗛𝗔𝗧](t.me/ilhaeChats)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/Alonezkly)\n"
+        f"🔰 : [𝗥𝗘𝗣𝗢-𝗔𝗭](https://github.com/Alonezkly//ALONEZKLY-UBOT)\n👥 : [𝗔𝗭 𝗖𝗛𝗔𝗧](t.me/ilhaeChats)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/Alonezkly)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -375,7 +375,7 @@ CMD_HELP.update({
 })
 CMD_HELP.update({
     "alive":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alive` or `.on` or `.geezalive`"
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alive` or `.on` or `.AZalive`"
     "\n↳ : To see whether your bot is working or not."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.aliveu` <text>"
     "\n↳ : Changes the 'user' in alive to the text you want."
