@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡ AZ-UserBot⚡ Versi:** \n "
-            f"heads/Alonezkly-Userbot-0-x634i7u1"
+            "**⚜-**⚡ 🔥Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ🔥 ⚡ Versi:** \n "
+            f"heads/Alonezkly-Project-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -230,7 +230,7 @@ async def amireallyalive(alive):
     output = (
         f"\n__**{GEEZ_TEKS_KUSTOM}**__\n"
         f"**╭───────────────────**\n"
-        f"**├[• 🤴 AZ Owner** \n"
+        f"**├[• 🤴 🔥Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ🔥** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
         f"**├[• 🔎 Username** \n"
         f"├[•   : `@{user.username}` \n"
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**ㅤㅤㅤㅤ ⚡𝗔𝗭 - 𝗨𝗕𝗢𝗧⚡**\n"
+        f"**ㅤㅤㅤㅤ 🔥Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ🔥 **\n"
         f"╔══════════╬════╬══════════╗ \n"
         f"╟⟩⟩ 🤴 • `ᴏᴡɴᴇʀ    :`[𝗔𝗹𝗼𝗻𝗲𝘇𝗸𝗹𝘆](t.me/Alonezkly)             ㅤ ║\n"
         f"╟⟩⟩ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            ║\n"
@@ -310,8 +310,8 @@ async def redis(alive):
     await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        f"╭═──────╼═⌘═╾───────═\n"
-        f"┃    ⚡ 𝗔𝗭 - 𝗨𝗕𝗢𝗧 ⚡    \n"
+        f"╭═──────╼═⌘═╾──────═\n"
+        f"┃   🔥Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ🔥 \n"
         f"╰═─────╼══⌘══╾─────═ \n"
         f" ❍ `Name     :` {DEFAULTUSER} \n"
         f" ❍ `Username :` @{user.username} \n"
@@ -321,9 +321,9 @@ async def redis(alive):
         f" ❍ `Bot Ver  :` {BOT_VER} \n"
         f" ❍ `Modules  :` {len(modules)} Modules \n"
         f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗥𝗲𝗽𝗼](https://github.com/Alonezkly/ALONEZKLY-UBOT)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/ilhaeChats)  |  "
+        f"┃ [𝗥𝗲𝗽𝗼](https://github.com/Alonezkly/ALONEZKLY-UBOT)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/ilhaeChats)  |  "
         f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/Alonezkly_)\n"
-        f"╰═──────╼═⌘═╾───────═")
+        f"╰═──────╼═⌘═╾──────═")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
