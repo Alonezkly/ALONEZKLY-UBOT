@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari 🔥Alone-Project🔥.`'
+                ' untuk dapat deploy perubahan terbaru dari ⚡⚡.`'
             )
             repo.__del__()
             return
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**🔥Alone-Project🔥** `Berhasil Di Update!`')
+    await event.edit('**⚡Alone-Project⚡** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**🔥Alone-Project🔥** `Di Restart....`')
+    await event.edit('**⚡Alone-Project⚡** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik.`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**🔥Alone-Project🔥 Telah Di Perbarui.**")
+            "**⚡Alone-Project⚡ Telah Di Perbarui.**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n🔥Alone-Project🔥 Sudah Versi Terbaru\n')
+            f'\n⚡Alone-Project⚡ Sudah Versi Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk 🔥Alone-Project🔥 :\n\n💻 Pembaruan Data :**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk ⚡Alone-Project⚡ :\n\n💻 Pembaruan Data :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,18 +208,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now`\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari 🔥Alone-Project🔥.__')
+        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now`\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari ⚡Alone-Project⚡.__')
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('` Proses Update 🔥Alone-Project, Loading....1%`')
-        await event.edit('` Proses Update 🔥Alone-Project, Loading....20%`')
-        await event.edit('` Proses Update 🔥Alone-Project, Loading....35%`')
-        await event.edit('` Proses Update 🔥Alone-Project, Loading....77%`')
-        await event.edit('` Proses Update 🔥Alone-Project, Updating...90%`')
-        await event.edit('` Proses Update 🔥Alone-Project, Mohon Tunggu Sebentar....100%`')
+        await event.edit('` Proses Update ⚡Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ⚡, Loading....1%`')
+        await event.edit('` Proses Update ⚡Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ⚡, Loading....20%`')
+        await event.edit('` Proses Update ⚡Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ⚡, Loading....35%`')
+        await event.edit('` Proses Update ⚡Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ⚡, Loading....77%`')
+        await event.edit('` Proses Update ⚡Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ⚡, Updating...90%`')
+        await event.edit('` Proses Update ⚡Aʟᴏɴᴇ - Pʀᴏᴊᴇᴄᴛ⚡, Mohon Tunggu Sebentar....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
