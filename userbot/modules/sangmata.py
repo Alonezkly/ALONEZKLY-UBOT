@@ -81,7 +81,8 @@ async def lastname(steal):
                     "```Mohon Unblock @sangmatainfo_bot Dan Coba Lagi```"
                 )
                 return
-            if response.text.startswith("Username History") or r.text.startswith("Username History"):
+            if response.text.startswith(
+                    "Username History") or r.text.startswith("Username History"):
                 respond = await conv.get_response()
                 await steal.edit(f"`{r.message}`")
                 await steal.client.delete_messages(
