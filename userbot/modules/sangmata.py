@@ -55,10 +55,8 @@ async def lastname(steal):
         return await steal.edit("`Saya Sedang Sakit Mohon Maaf`")
 
 
-
-
 CMD_HELP.update({
     "sangmata":
         "`.sa`\
           \nUsage: Mendapatkan Riwayat Nama Pengguna."
-        })
+})
