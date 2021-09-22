@@ -1863,7 +1863,9 @@ CMD_HELP.update({
     "\nUsage: Puji orang!."
 })
 
-CMD_HELP.update({"memes4": ">`.f` <emoji/karakter>"
+CMD_HELP.update({
+"memes4":
+ ">`.f` <emoji/karakter>"
                  "\nUsage: F."
                  "\n\n>`.bt`"
                  "\nUsage: Percayalah, Anda akan menemukan ini berguna."
@@ -1879,4 +1881,5 @@ CMD_HELP.update({"memes4": ">`.f` <emoji/karakter>"
                  "\n> `.fag` `.gtfo`; `.stfu` `.lol` `.lool` `.fail` `.leave`"
                  "\n> `.iwi` `.sayhi` `.koc` `.gas` `.earth` `.love` `.rain`"
                  "\n> `.penis` `.emo` `.fuck` `.skull`  `.monyet`\nUsage: Cobain aja"
-                 "\n\n\n**Semoga Harimu Menyenangkan**\n"})
+                 "\n\n\n**Semoga Harimu Menyenangkan**\n"
+})
