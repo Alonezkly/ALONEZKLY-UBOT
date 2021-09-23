@@ -1592,6 +1592,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Dah sana cabut, Makasih hiburannya, Udah bikin Gua tawa ngakak`")
 
+
 @register(outgoing=True, pattern="^.gas$")
 async def gas(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -1605,6 +1606,7 @@ async def gas(e):
         await e.edit("🚑___________________")
         await e.edit("_____________________")
         await e.edit(choice(FACEREACTS))
+
 
 @register(outgoing=True, pattern='^.orgil(?: |$)(.*)')
 async def typewriter(typew):
