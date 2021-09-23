@@ -1545,7 +1545,7 @@ async def nou(e):
         )
 
 
-@register(outgoing=True, pattern="^\\.awts$")
+@register(outgoing=True, pattern="^\.awts$")
 async def awts(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
     await e.edit("**Lapit Peler☑️**")
