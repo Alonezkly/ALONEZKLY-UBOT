@@ -1545,6 +1545,25 @@ async def nou(e):
         )
 
 
+@register(outgoing=True, pattern='^.awts(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Lapit Peler☑️**")
+    await typew.edit("**Lapit Peler✅**")
+    sleep(1)
+    await typew.edit("**Dika ngegay sma ragil☑️**")
+    await typew.edit("**Dika ngegay sama ragil✅**")
+    sleep(2)
+    await typew.edit("**Blue autis ☑️**")
+    await typew.edit("**Blue autis✅**")
+    sleep(2)
+    await typew.edit("**Dabudi Gajelas☑️**")
+    await typew.edit("**Dabudi Gajelas✅**")
+    sleep(3)
+    await typew.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
+
+
+
 @register(outgoing=True, pattern=r"^\.koc$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
