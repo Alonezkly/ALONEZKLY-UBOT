@@ -1575,7 +1575,7 @@ async def typewriter(typew):
     await typew.edit("`Gua ga ketrigger sama bocah baru nyemplung!`")
 
 
-@register(outgoing=True, pattern='^.wah(?: |$)(.*)')
+@register(outgoing=True, pattern='^.war(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Wahh, War nya keren bang`")
@@ -1591,6 +1591,77 @@ async def typewriter(typew):
     await typew.edit("`Kasian badut🤡, Ga di hargain pengunjung, Eh lampiaskan nya ke Tele, Wkwkwk`")
     sleep(3)
     await typew.edit("`Dah sana cabut, Makasih hiburannya, Udah bikin Gua tawa ngakak`")
+
+@register(outgoing=True, pattern="^.gas$")
+async def gas(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("___________________🚑")
+        await e.edit("________________🚑___")
+        await e.edit("______________🚑_____")
+        await e.edit("___________🚑________")
+        await e.edit("________🚑___________")
+        await e.edit("_____🚑______________")
+        await e.edit("__🚑_________________")
+        await e.edit("🚑___________________")
+        await e.edit("_____________________")
+        await e.edit(choice(FACEREACTS))
+
+@register(outgoing=True, pattern='^.orgil(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`ANJING ADA ORANG GILA.....`")
+    sleep(1)
+    await typew.edit("`ORANG GILAAAAAA!!`")
+    sleep(1)
+    await typew.edit("`🏃                        🤸`")
+    await typew.edit("`🏃                       🤸`")
+    await typew.edit("`🏃                      👨‍🦽`")
+    await typew.edit("`🏃                     ⛹️`")
+    await typew.edit("`🏃   `LARII`          🤾`")
+    await typew.edit("`🏃                   🤾`")
+    await typew.edit("`🏃                  🤾`")
+    await typew.edit("`🏃                 🤾`")
+    await typew.edit("`🏃                🤾`")
+    await typew.edit("`🏃               🤺`")
+    await typew.edit("`🏃              🏊`")
+    await typew.edit("`🏃             🏊`")
+    await typew.edit("`🏃            🏄`")
+    await typew.edit("`🏃           🤾`")
+    await typew.edit("`🏃PULUPULU   🧚`")
+    await typew.edit("`🏃           ⛹️`")
+    await typew.edit("`🏃            ⛹️`")
+    await typew.edit("`🏃             🤺`")
+    await typew.edit("`🏃              🥴`")
+    await typew.edit("`🏃               🏃`")
+    await typew.edit("`🏃                🏃`")
+    await typew.edit("`🏃                 🤸`")
+    await typew.edit("`🏃                  🤸`")
+    await typew.edit("`🏃                   🤸`")
+    await typew.edit("`🏃                    🤸`")
+    await typew.edit("`🏃                     ⛹️`")
+    await typew.edit("`🏃  Huh-Huh           🏃`")
+    await typew.edit("`🏃                   🤑`")
+    await typew.edit("`🏃                  🙈`")
+    await typew.edit("`🏃                 ⛹️`")
+    await typew.edit("`🏃                🏃`")
+    await typew.edit("`🏃               🤴`")
+    await typew.edit("`🏃              🐖`")
+    await typew.edit("`🏃             🐖`")
+    await typew.edit("`🏃            🥴`")
+    await typew.edit("`🏃           🥴`")
+    await typew.edit("`🏃          🤡`")
+    await typew.edit("`🏃         🤭`")
+    await typew.edit("`CAPE BANGET ANJING!!!`")
+    sleep(1)
+    await typew.edit("`🏃       🏃`")
+    await typew.edit("`🏃      🤾`")
+    await typew.edit("`🏃     🏃`")
+    await typew.edit("`🏃    🏃`")
+    await typew.edit("`Dahlah Pasrah Aja`")
+    sleep(1)
+    await typew.edit("`🧎🐖`")
+    sleep(2)
+    await typew.edit("`-TAMAT-`")
 
 
 @register(outgoing=True, pattern=r"^\.koc$")
@@ -1696,5 +1767,5 @@ CMD_HELP.update(
         "\nAnd Many More..."
         "\n.nou | .bot | .gey | .gay | .tf | .paw | .taco | .nih | .ii ;"
         "\n.fag | .gtfo | .stfu | .lol | .lool | .fail | .leave"
-        "\n.love | .rain | .earth | .fuck | .penis | .koc | .anjay"
+        "\n.love | .rain | .earth | .fuck | .penis | .koc | .anjay  | .orgil | .sok| .awts | .war | .gas |"
         "\n\n\nThanks to 🅱️ottom🅱️ext🅱️ot (@NotAMemeBot) for some of these."})
