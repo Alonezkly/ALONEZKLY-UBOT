@@ -1563,7 +1563,6 @@ async def typewriter(typew):
     await typew.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
 
 
-
 @register(outgoing=True, pattern=r"^\.koc$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
