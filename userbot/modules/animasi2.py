@@ -1665,8 +1665,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`-TAMAT-`")
 
+
 @register(outgoing=True, pattern="^.eek$")
-async def eek (e):
+async def eek(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`Kawan kawan Aku mau cerita sedikit`")
         sleep(1)
@@ -1929,6 +1930,7 @@ async def eek (e):
         await e.edit("🚶                               🐢")
         await e.edit("🚶                                🐢")
         await e.edit("`NGAPAIN DI LIAT?😒😡`")
+
 
 @register(outgoing=True, pattern=r"^\.koc$")
 async def koc(e):
