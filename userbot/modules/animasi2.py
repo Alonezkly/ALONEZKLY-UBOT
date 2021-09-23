@@ -1547,19 +1547,19 @@ async def nou(e):
 
 @register(outgoing=True, pattern='^.awts(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(3)
+    typew.pattern_match.group(1)
     await typew.edit("**Lapit Peler☑️**")
     await typew.edit("**Lapit Peler✅**")
-    await sleep(1)
+    sleep(2)
     await typew.edit("**Dika ngegay sma ragil☑️**")
     await typew.edit("**Dika ngegay sama ragil✅**")
-    await sleep(1)
+    sleep(2)
     await typew.edit("**Blue autis ☑️**")
     await typew.edit("**Blue autis✅**")
-    await sleep(1)
+    sleep(2)
     await typew.edit("**Dabudi Gajelas☑️**")
     await typew.edit("**Dabudi Gajelas✅**")
-    await sleep(5)
+    sleep(3)
     await typew.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
 
 
@@ -1577,19 +1577,19 @@ async def typewriter(typew):
 
 @register(outgoing=True, pattern='^.war(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(3)
+    typew.pattern_match.group(1)
     await typew.edit("`Wahh, War nya keren bang`")
-    sleep(0)
+    sleep(2)
     await typew.edit("`Tapi, Yang gua liat, kok Kaya lawakan`")
-    sleep(0)
+    sleep(2)
     await typew.edit("`Oh iya, Kan lo badut 🤡`")
-    sleep(0)
+    sleep(2)
     await typew.edit("`Kosa kata pas ngelawak, Jangan di pake war bang`")
-    sleep(0)
+    sleep(2)
     await typew.edit("`Kesannya lo ngasih kita hiburan.`")
-    sleep(0)
+    sleep(2)
     await typew.edit("`Kasian badut🤡, Ga di hargain pengunjung, Eh lampiaskan nya ke Tele, Wkwkwk`")
-    sleep(1)
+    sleep(3)
     await typew.edit("`Dah sana cabut, Makasih hiburannya, Udah bikin Gua tawa ngakak`")
 
 
