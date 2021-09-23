@@ -1562,6 +1562,7 @@ async def awts(e):
     sleep(3)
     await e.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
 
+
 @register(outgoing=True, pattern='^.sok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(3)
@@ -1572,6 +1573,7 @@ async def typewriter(typew):
     await typew.edit("`Gausah sok keras`")
     sleep(3)
     await typew.edit("`Gua ga ketrigger sama bocah baru nyemplung!`")
+
 
 @register(outgoing=True, pattern='^.wah(?: |$)(.*)')
 async def typewriter(typew):
@@ -1589,6 +1591,7 @@ async def typewriter(typew):
     await typew.edit("`Kasian badut🤡, Ga di hargain pengunjung, Eh lampiaskan nya ke Tele, Wkwkwk`")
     sleep(3)
     await typew.edit("`Dah sana cabut, Makasih hiburannya, Udah bikin Gua tawa ngakak`")
+
 
 @register(outgoing=True, pattern=r"^\.koc$")
 async def koc(e):
