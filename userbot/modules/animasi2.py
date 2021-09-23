@@ -1931,6 +1931,7 @@ async def eek(e):
         await e.edit("🚶                                🐢")
         await e.edit("`NGAPAIN DI LIAT?😒😡`")
 
+
 @register(outgoing=True, pattern='^.tll(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -1939,7 +1940,7 @@ async def typewriter(typew):
     await typew.edit("`Pertama Kamu tolol....`")
     await sleep(1)
     await typew.edit("`Kedua Kamu memang tolol...`")
-    await  sleep(1)
+    await sleep(1)
     await typew.edit("`Ketiga Kamu benar benar tolol..`")
     await sleep(1)
     await typew.edit("`Dan kamu di lahirkan Dalam keadaan tolol...`")
