@@ -1547,25 +1547,25 @@ async def nou(e):
 
 @register(outgoing=True, pattern='^.awts(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(1)
+    typew.pattern_match.group(3)
     await typew.edit("**Lapit Peler☑️**")
     await typew.edit("**Lapit Peler✅**")
-    sleep(1)
+    sleep(3)
     await typew.edit("**Dika ngegay sma ragil☑️**")
     await typew.edit("**Dika ngegay sama ragil✅**")
-    sleep(0)
+    sleep(3)
     await typew.edit("**Blue autis ☑️**")
     await typew.edit("**Blue autis✅**")
-    sleep(0)
+    sleep(3)
     await typew.edit("**Dabudi Gajelas☑️**")
     await typew.edit("**Dabudi Gajelas✅**")
-    sleep(1)
+    sleep(4)
     await typew.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
 
 
 @register(outgoing=True, pattern='^.sok(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(1)
+    typew.pattern_match.group(3)
     await typew.edit("`Lahk, Lo tolol?`")
     sleep(0)
     await typew.edit("`Apa dongok?`")
@@ -1577,7 +1577,7 @@ async def typewriter(typew):
 
 @register(outgoing=True, pattern='^.war(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(1)
+    typew.pattern_match.group(3)
     await typew.edit("`Wahh, War nya keren bang`")
     sleep(0)
     await typew.edit("`Tapi, Yang gua liat, kok Kaya lawakan`")
