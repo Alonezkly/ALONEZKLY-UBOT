@@ -1545,22 +1545,22 @@ async def nou(e):
         )
 
 
-@register(outgoing=True, pattern='^.awts(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**Lapit Peler☑️**")
-    await typew.edit("**Lapit Peler✅**")
+@register(outgoing=True, pattern="^\.awts$")
+async def awts (e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+    await e.edit("**Lapit Peler☑️**")
+    await e.edit("**Lapit Peler✅**")
     sleep(1)
-    await typew.edit("**Dika ngegay sma ragil☑️**")
-    await typew.edit("**Dika ngegay sama ragil✅**")
+    await e.edit("**Dika ngegay sma ragil☑️**")
+    await e.edit("**Dika ngegay sama ragil✅**")
     sleep(2)
-    await typew.edit("**Blue autis ☑️**")
-    await typew.edit("**Blue autis✅**")
+    await e.edit("**Blue autis ☑️**")
+    await e.edit("**Blue autis✅**")
     sleep(2)
-    await typew.edit("**Dabudi Gajelas☑️**")
-    await typew.edit("**Dabudi Gajelas✅**")
+    await e.edit("**Dabudi Gajelas☑️**")
+    await e.edit("**Dabudi Gajelas✅**")
     sleep(3)
-    await typew.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
+    await e.edit("**Cuma Aʟᴏɴᴇᴢᴋʟʏ 🇷🇺 yang tampan!**")
 
 
 @register(outgoing=True, pattern=r"^\.koc$")
